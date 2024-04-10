@@ -14,6 +14,9 @@ public class LoginGUI extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
 
+        //Set background color of the login page
+        getContentPane().setBackground(Color.LIGHT_GRAY);
+
         // Create components
         JLabel emailLabel = new JLabel("Email:");
         JLabel passwordLabel = new JLabel("Password:");
